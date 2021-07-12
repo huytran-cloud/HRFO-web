@@ -1,3 +1,4 @@
+'use strict';
 const express = require("express");
 const nodemailer = require("nodemailer");
 const app = express();
@@ -27,6 +28,9 @@ transporter.verify((err, success) => {
         console.log(`=== Server is ready to take messages: ${success} ===`);
 });
 
+app.get("/", function (req, res) {
+  res.send("<h1>Hello, we are HRFO</h1>")
+})
 
 app.post("/send", function (req, res) {
     res.header("Access-Control-Allow-Origin", "*");
@@ -59,7 +63,7 @@ app.post("/send", function (req, res) {
       });
    });
 
-const port = 3001;
+const port = process.env.PORT || 8080;
 app.listen(port, () => {
     console.log(`Server is running on port: ${port}`);
 });

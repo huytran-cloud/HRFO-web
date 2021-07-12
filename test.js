@@ -1,3 +1,4 @@
+const fetch = require("node-fetch");
 
 const inputValues = {
     name: "HuyTrumIT",
@@ -6,7 +7,7 @@ const inputValues = {
 }
 
 sendMail = async (data) => {
-    const response = await fetch("http://localhost:3001/send", {
+    const response = await fetch("https://hrfo-backend.herokuapp.com/send", {
         method: "POST",
         headers: {
           "Content-type": "application/json",

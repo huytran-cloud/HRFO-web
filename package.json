@@ -3,6 +3,17 @@
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
     "nodemailer": "^6.6.2"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "hrfo-backend",
+  "description": "\"Edit me later\"",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
