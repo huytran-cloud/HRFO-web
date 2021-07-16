@@ -1,117 +1,115 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .content {
+        width: 784px;
+        display: flex;
 
-.departments-container {
-  position: relative;
-  width: 24.5%;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        flex-wrap: wrap;
+      }
+      .content-header {
+        font-weight: bold;
+        font-size: 50px;
+      }
+      .img-content {
+        width: 784px;
+        height: 784px;
+        object-fit: cover;
+        margin-bottom: 36px;
+      }
+      .content-body {
+        font-size: 24px;
+        width: 784px;
+        line-height: 143.2%;
+      }
+      span {
+        font-size:64px;
+        float: left;
+        line-height: 85%;
+        width: 0.7em;
+        font-size: 400%;
+      }
+      .content-media{
+        list-style: none;
+        position:fixed;
+        bottom:50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <h1 class="content-header">NẠO PHÁ THAI</h1>
+      <img src="./images/content/NPT HRFO.png" alt="" class="img-content" />
+      <div class="content-body">
+        <span>L</span>orem ipsum dolor sit amet, consectetur adipiscing elit.
+        Curabitur nisi nisl, porta nec malesuada eget, tincidunt sagittis felis.
+        Suspendisse diam dolor, consequat sed magna faucibus, consectetur
+        feugiat risus. Donec nunc tellus, posuere vel arcu ac, posuere porta
+        elit. Nullam sit amet pharetra ante. Suspendisse mollis faucibus magna a
+        lobortis. Cras ut purus enim. Duis sit amet nisi sapien. Nam bibendum
+        tempor sodales. Duis tristique ac ligula eget tristique. Pellentesque
+        sodales lobortis lacinia. Quisque efficitur urna a ante consequat, vitae
+        congue tellus condimentum. Pellentesque tempus ex nunc, ac suscipit nibh
+        pellentesque quis.Quisque vitae libero et ante laoreet congue. Mauris
+        porta felis odio, a ultricies nisl egestas ac. Nulla facilisi. Fusce
+        eget mi vel elit efficitur lobortis ac non risus. Nunc ac leo elit. Nunc
+        quis odio dictum, feugiat sem vel, elementum eros. Morbi bibendum nisl
+        ligula, nec tempus velit tempor et. Ut condimentum metus eget est mattis
+        rutrum. Integer egestas dignissim libero, vitae efficitur arcu tempor
+        sed. Proin viverra scelerisque dolor porttitor porta. Nulla elementum,
+        lorem ut fringilla lacinia, turpis diam facilisis purus, in pellentesque
+        lorem odio nec ex. Suspendisse vel enim sit amet est ornare pretium.Ut
+        euismod libero nec efficitur mollis. Maecenas vulputate tempor
+        dignissim. Morbi rutrum mi quis accumsan interdum. Aliquam ac dapibus
+        massa, eget finibus odio. Sed pharetra ligula urna, nec elementum augue
+        sollicitudin et. Aenean efficitur est enim. Sed id mi risus. Quisque sit
+        amet nisl in neque ullamcorper luctus vitae eu mi. Nullam purus sapien,
+        fermentum id felis quis, varius sollicitudin tellus. Praesent tristique
+        quam non vehicula condimentum. Praesent faucibus ultricies nibh, in
+        porta elit pretium nec. Pellentesque habitant morbi tristique senectus
+        et netus et malesuada fames ac turpis egestas. Suspendisse tempor
+        facilisis elementum.Duis mauris velit, ultricies eget purus non, finibus
+        dapibus elit. Cras faucibus sem eget lobortis aliquam. Duis aliquam non
+        arcu eu finibus. Vivamus eu condimentum odio, vel faucibus eros. Nam
+        posuere molestie felis quis lobortis. Donec egestas tempus ultricies.
+        Integer ultrices lacus vitae ligula porta, et egestas neque egestas.
+        Donec pretium felis at magna accumsan, vitae cursus lacus porta. In non
+        est nibh. In hac habitasse platea dictumst. Cras scelerisque turpis id
+        mauris sollicitudin, sed accumsan ipsum ultricies. Nam ultricies sit
+        amet tortor sit amet vestibulum. Praesent lobortis purus vel ante
+        dignissim, non tincidunt purus ultricies. Sed imperdiet facilisis nisl.
+        Praesent lobortis sem dui, ac sodales nisi viverra nec.Sed semper,
+        libero vel congue ultrices, ante neque congue libero, eget eleifend
+        velit est molestie ex. Phasellus eu mauris nec justo suscipit efficitur.
+        Cras placerat ultrices porttitor. Etiam varius mollis vestibulum. Cras
+        pellentesque eros ac lectus mollis, a pulvinar tortor euismod.
+        Suspendisse posuere, libero in finibus luctus, justo ipsum blandit
+        lacus, vitae tempus mi lorem ac urna. Curabitur a dui nibh. Vestibulum
+        at metus pretium, tempus elit semper, maximus enim. Nullam euismod quis
+        dolor id consectetur. Maecenas sit amet massa ac magna maximus convallis
+        vitae nec lectus. Pellentesque in augue convallis tortor volutpat
+        pellentesque sed vitae orci. Nunc non metus at augue venenatis
+        venenatis. Nam gravida, magna ac mollis tincidunt, nunc justo hendrerit
+        massa, ultrices auctor lectus nisl non nulla.
+      </div>
 
-}
-
-.departments-image {
-    object-fit: cover;
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.departments-overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #000000;
-}
-
-.departments-container:hover .departments-overlay {
-  opacity: 0.5;
-}
-
-.departments-text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-.departments-display{
-
-    text-align: center;
-    justify-content: space-around;
-    display: flex;
-    flex-wrap: wrap;
-    /* grid-template-columns: 3fr 3fr 3fr;
-    grid-template-rows: 1fr 1fr; */
-    grid-gap: 20px;
-}
-.departments{
-    height: 100vh;
-
-}
-</style>
-</head>
-<body>
-
-
-<div class="departments">
-    <div class="departments-display">
-        <div class="departments-container">
-            <img src="./images/picture/departments/CONTENT-01.jpg" alt="Avatar" class="departments-image">
-            <div class="departments-overlay">
-                <div class="departments-text">Hello World</div>
-            </div>
-        </div>
-    
-        <div class="departments-container">
-            <img src="./images/picture/departments/CONTENT-01.jpg"  class="departments-image">
-            <div class="departments-overlay">
-                <div class="departments-text">Hello World</div>
-            </div>
-        </div>
-    
-        <div class="departments-container">
-            <img src="./images/picture/departments/CONTENT-01.jpg" class="departments-image">
-            <div class="departments-overlay">
-                <div class="departments-text">Hello World</div>
-            </div>
-        </div>
-    
-        <div class="departments-container">
-            <img src="./images/picture/departments/CONTENT-01.jpg" class="departments-image">
-            <div class="departments-overlay">
-                <div class="departments-text">Hello World</div>
-            </div>
-        </div>
-    
-        <div class="departments-container">
-            <img src="./images/picture/departments/CONTENT-01.jpg"  class="departments-image">
-            <div class="departments-overlay">
-                <div class="departments-text">Hello World</div>
-            </div>
-        </div>
-    
-        <div class="departments-container">
-            <img src="./images/picture/departments/CONTENT-01.jpg"  class="departments-image">
-            <div class="departments-overlay">
-                <div class="departments-text">Hello World</div>
-            </div>
-        </div>
-    
     </div>
-</div>
 
+    <ul  class="content-media">
+        <li><a href=""><img src="./images/icons/icons8-facebook.svg" alt="#" style="width: 29px;height: 29px;margin-bottom: 28px;"></a></li>
+        <li><a href=""><img src="./images/icons/icons8-instagram-circle.svg" alt="#" style="width: 29px;height: 29px;margin-bottom: 28px;"></a></li>
+        <li><a href=""><img src="./images/icons/icons8-twitter.svg" alt="#" style="width: 29px;height: 29px;margin-bottom: 28px;"></a></li>
+    </ul>
 
-
-</body>
+  </body>
 </html>

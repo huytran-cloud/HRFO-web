@@ -71,6 +71,7 @@ html {
 html,
 body {
     height: 100%;
+    background-color: #fff;
 }
 
 body {
@@ -3853,4 +3854,46 @@ footer .row {
   .departments{
       height: 100vh;
   
+  }
+
+  /* content */
+  .content {
+    width: 784px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    flex-wrap: wrap;
+
+  }
+  .content-header {
+    font-weight: bold;
+    font-size: 50px;
+  }
+  .img-content {
+    width: 784px;
+    height: 784px;
+    object-fit: cover;
+    margin-bottom: 36px;
+  }
+  .content-body {
+    font-size: 24px;
+    width: 784px;
+    line-height: 143.2%;
+  }
+  .content-big-word {
+    font-size:64px;
+    float: left;
+    line-height: 85%;
+    width: 0.7em;
+    font-size: 400%;
+    color: #000000;
+  }
+  .content-media{
+    list-style: none;
+    position:fixed;
+    bottom:50px;
   }
