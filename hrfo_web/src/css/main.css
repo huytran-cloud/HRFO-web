@@ -1483,9 +1483,11 @@ input::-moz-focus-inner {
     width: 100%;
     height: 96px;
     background-color: transparent;
-    position: absolute;
+    position: fixed;
     top: 0;
     z-index: 500;
+    background-color: #000000;
+    opacity: 0.8;
 }
 
 /* -------------------------------------------------------------------
@@ -1493,11 +1495,11 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .header-logo {
     display: inline-block;
-    position: absolute;
+    position: fixed;
     margin: 0;
     padding: 0;
     left: 40px;
-    top: 50%;
+    top: 35px;
     -webkit-transform: translateY(-30%);
     -ms-transform: translateY(-30%);
     transform: translateY(-30%);
@@ -1510,7 +1512,7 @@ input::-moz-focus-inner {
     padding: 0;
     outline: 0;
     border: none;
-    width: 50px;
+    width: 12%;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }

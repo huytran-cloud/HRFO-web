@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container'
 
-import header_bg from '../../assets/NPT-HRFO.png'
+import header_bg from '../../assets/hero-bg.jpg'
 
 const useStyles = makeStyles((theme) => ({
     header_container: {
