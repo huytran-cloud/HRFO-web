@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e0dac2bf.chunk.css",
+    "main.js": "/static/js/main.675fc486.chunk.js",
+    "main.js.map": "/static/js/main.675fc486.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.219cb642.js",
+    "runtime-main.js.map": "/static/js/runtime-main.219cb642.js.map",
+    "static/js/2.a84f330c.chunk.js": "/static/js/2.a84f330c.chunk.js",
+    "static/js/2.a84f330c.chunk.js.map": "/static/js/2.a84f330c.chunk.js.map",
+    "static/js/3.44b46b9c.chunk.js": "/static/js/3.44b46b9c.chunk.js",
+    "static/js/3.44b46b9c.chunk.js.map": "/static/js/3.44b46b9c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e0dac2bf.chunk.css.map": "/static/css/main.e0dac2bf.chunk.css.map",
+    "static/js/2.a84f330c.chunk.js.LICENSE.txt": "/static/js/2.a84f330c.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/static/media/contact-bg.928ca4ec.jpg",
+    "static/media/vendor.css": "/static/media/default-skin.f64c3af3.svg",
+    "static/media/base.css": "/static/media/montserrat-thin-webfont.a2575096.woff2",
+    "static/media/hero-bg.a0421ed3.jpg": "/static/media/hero-bg.a0421ed3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.219cb642.js",
+    "static/js/2.a84f330c.chunk.js",
+    "static/css/main.e0dac2bf.chunk.css",
+    "static/js/main.675fc486.chunk.js"
+  ]
+}
